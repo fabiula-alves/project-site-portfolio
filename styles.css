@@ -446,90 +446,49 @@ Questions
 
 /*
 =============== 
-Filter
+Projects
 ===============
 */
-/*  Needed for filters */
-
-.hide {
-  animation: hide 0.4s ease 0s 1 normal forwards;
-  transform-origin: center;
-}
-.show {
-  animation: show 0.4s ease 0s 1 normal forwards;
-  transform-origin: center;
-}
-
-@keyframes hide {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(0);
-    width: 0;
-    height: 0;
-    margin: 0;
-  }
-}
-@keyframes show {
-  0% {
-    transform: scale(0);
-    width: 0;
-    height: 0;
-    margin: 0;
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-.projects {
-  display: block;
-  font-family: var(--ff-primary);
-  color: var(--clr-white);
-  margin: 0 auto;
-  max-width: 800px;
-}
 .project {
-  background: var(--clr-green-dark);
   box-shadow: var(--dark-shadow);
   border-radius: var(--radius);
   width: 220px;
   height: 125px;
   margin: 20px;
-  display: inline-block;
-  max-width: 1170px;
+  display: flex;
+  max-width: 800px;
   padding-top: 20px;
   text-align: center;
+  margin: 0 auto;
 }
-.project:nth-child(odd) {
-  background: var(--clr-primary-3);
-  box-shadow: var(--dark-shadow);
-  border-radius: var(--radius);
+#project1 {
+  margin: 0 auto;
+  display: block;
+  height: 250px;
+  width: 300px;
+  margin-bottom: 150px;
 }
-.filters {
-  margin: 20px;
-  display: flex;
-  justify-content: center;
+#project2 {
+  margin: 0 auto;
+  display: block;
+  height: 300px;
+  width: 300px;
+  margin-bottom: 110px;
 }
-.filter {
-  margin: 10px;
+#project3 {
+  margin: 0 auto;
+  display: block;
+  height: 300px;
+  width: 300px;
+  margin-bottom: 110px;
 }
-.filter:hover {
-  cursor: pointer;
+#project4 {
+  margin: 0 auto;
+  display: block;
+  width: 1000px;
 }
-.text-project {
-  color: var(--clr-grey-7);
+#texto1 {
   text-align: center;
-}
-.btn-project {
-  color: var(--clr-white);
-  background-color: var(--clr-primary-5);
-  padding: 5px;
-  border-radius: var(--radius);
-}
-.btn-project:hover {
-  color: var(--clr-primary-5);
-  background-color: var(--clr-white);
 }
 /*
 =============== 
@@ -560,6 +519,9 @@ Experience
   width: 150px;
   height: 100px;
   margin: 20px;
+}
+.experience:hover {
+  transform: scale(1.8);
 }
 /*
 =============== 
