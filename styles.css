@@ -449,17 +449,43 @@ Questions
 Projects
 ===============
 */
+.projects {
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+}
 .project {
+  display: block;
+  background-color: var(--clr-green-dark);
   box-shadow: var(--dark-shadow);
   border-radius: var(--radius);
-  width: 220px;
-  height: 125px;
+  width: 210px;
+  height: 200px;
   margin: 20px;
-  display: flex;
-  max-width: 800px;
   padding-top: 20px;
   text-align: center;
   margin: 0 auto;
+}
+.btn-project {
+  display: block;
+  color: var(--clr-white);
+  background-color: var(--clr-primary-4);
+  box-shadow: var(--dark-shadow);
+  border-radius: var(--radius);
+  width: 150px;
+  margin: 0 auto;
+  margin-bottom: 12px;
+  padding: 5px;
+}
+.btn-project:hover {
+  color: var(--clr-primary-4);
+  background-color: var(--clr-white);
+}
+.text_title {
+  color: var(--clr-white);
+}
+.text-project {
+  color: var(--clr-grey-4);
 }
 #project1 {
   margin: 0 auto;
@@ -505,7 +531,6 @@ Experience
 .experiences {
   display: block;
   align-items: center;
-  align-items: center;
   min-height: 200px;
   font-family: var(--ff-primary);
   color: var(--clr-white);
@@ -516,7 +541,7 @@ Experience
   display: inline-block;
   max-width: 1170px;
   box-shadow: var(--dark-shadow);
-  width: 150px;
+  width: 155px;
   height: 100px;
   margin: 20px;
 }
@@ -524,9 +549,9 @@ Experience
   transform: scale(1.8);
 }
 /*
-=============== 
+============= 
 Social Icons
-===============
+=============
 */
 .social-icons {
   display: flex;
@@ -542,21 +567,44 @@ Social Icons
 .social-icons a:hover {
   color: var(--clr-primary-7);
 }
-@media screen and (max-width: 800px) {
+/*
+==================
+Responsive Design
+==================
+*/
+@media (min-width: 200px) and (max-width: 700px) {
   .projects {
+    display: grid;
+    margin: 0 auto;
+  }
+  .project {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  .text_title {
+    color: var(--clr-white);
+    font-size: 19px;
+    word-wrap: break-word;
+  }
+  .text-project {
+    color: var(--clr-grey-4);
+    font-size: 13px;
+    word-wrap: break-word;
+  }
+  .btn-project {
+    margin-bottom: 5px;
+  }
+  #project4 {
+    margin: 0 auto;
     display: block;
-    max-width: 250px;
+    width: 300px;
   }
   .legenda {
-    font-size: 8px;
+    font-size: 12px;
   }
   .experiences {
     display: block;
-    min-height: 120px;
+    width: 200px;
     margin: 0 auto;
-  }
-  .experience {
-    display: inline-block;
-    width: 50px;
   }
 }

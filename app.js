@@ -90,7 +90,7 @@ questions.forEach(function (question) {
 });
 
 // ********** filter ************
-
+/*
 const filters = document.querySelectorAll('.filter');
 
 filters.forEach(filter => { 
@@ -117,4 +117,4 @@ filters.forEach(filter => {
     });
 
   });
-});
+});*/
