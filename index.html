@@ -1,219 +1,212 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
-    <meta name="description" content="Portfólio de desenvolvedora front-end júnior e design"> 
-    <meta name="keywords" content="portfólio, front-end, desenvolvedora, design"> 
-    <title>Portfólio | Fabiula Alves</title>
-    <!-- font-awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
-    <!-- styles -->
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header id="home">
-      <!-- navbar -->
-      <nav id="nav">
-        <div class="nav-center">
-          <!-- nav header -->
-          <div class="nav-header">
-            <a href="design.html"><img src="./logo.svg" class="logo" alt="logo" /></a>
-            
-            <button class="nav-toggle">
-              <i class="fas fa-bars"></i>
-            </button>
-          </div>
-          <!-- links -->
-          <div class="links-container">
-            <ul class="links">
-              <li>
-                <a href="#home" class="scroll-link">home</a>
-              </li>
-              <li>
-                <a href="#about" class="scroll-link">Sobre</a>
-              </li>
-              <li>
-                <a href="#project" class="scroll-link">projetos</a>
-              </li>
-              <li>
-                <a href="#experience" class="scroll-link">experiência</a>
-              </li>
-              <li>
-                <a href="#contact" class="scroll-link">contato</a>
-              </li>
-            </ul>
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Portfólio de desenvolvedora front-end júnior e design">
+  <meta name="keywords" content="portfólio, front-end, desenvolvedora, design">
+  <title>Portfólio | Fabiula Alves</title>
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header id="home">
+    <!-- navbar -->
+    <nav id="nav">
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <img src="./logo.svg" class="logo" alt="logo" />
+
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
         </div>
-      </nav>
-      <!-- banner -->
-      <div class="banner">
-        <div class="container">
-          <h1>Fabiula Alves</h1>
-          <p>
-            Desenvolvedora de Interfaces Web e Designer
-          </p>
-          <a href="#experience" class="scroll-link btn btn-white">Saiba mais</a>
+        <!-- links -->
+        <div class="links-container">
+          <ul class="links">
+            <li>
+              <a href="#home" class="scroll-link">home</a>
+            </li>
+            <li>
+              <a href="#about" class="scroll-link">Sobre</a>
+            </li>
+            <li>
+              <a href="#project" class="scroll-link">projetos</a>
+            </li>
+            <li>
+              <a href="#experience" class="scroll-link">experiência</a>
+            </li>
+            <li>
+              <a href="#contact" class="scroll-link">contato</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </header>
-    <!-- sobre -->
-    <section id="about" class="section">
-      <div class="title">
-        <h2>sobre <span>mim</span></h2>
-        <p class="about-text">
-          Meu nome é Fabiula Alves e Silva, sou web designer, desenvolvedora e criadora de conteúdo para mídias digitais.
+    </nav>
+    <!-- banner -->
+    <div class="banner">
+      <div class="container">
+        <h1>Fabiula Alves</h1>
+        <p>
+          Desenvolvedora de Interfaces Web e Designer
         </p>
-        <p class="about-text">
-          Formada no curso técnico "Informática para Internet" pelo Senai-MT.
-        </p>
-        <p class="about-text">
-          Nos últimos 2 anos, trabalho desenvolvendo conteúdo para mídias digitais para uma rede de farmácias.
-        </p>
-        <p class="about-text">
-          Aqui estão os meu últimos trabalhos como design e criadora de conteúdo para mídias sociais, além de estudo realizados. 
-        </p>
-        <section class="questions">
-          <!-- questions -->
-          <div class="section-center">
-            <!-- single question -->
-            <article class="question">
-              <!-- question title -->
-              <div class="question-title">
-                <p>Conhecimento</p>
-                <button type="button" class="question-btn">
-                  <span class="plus-icon">
-                    <i class="far fa-plus-square"></i>
-                  </span>
-                  <span class="minus-icon">
-                    <i class="far fa-minus-square"></i>
-                  </span>
-                </button>
-              </div>
-              <!-- question text -->
-              <div class="question-text">
-                <p>
-                  HTML, CSS e Javascript
-                </p>
-                <p>
-                  Photoshop, Gimp, Figma
-                </p>
-                <p>
-                  Bootstrap, SASS
-                </p>
-              </div>
-            </article>
-            <!-- end of single question -->   
-        </section>
+        <a href="#experience" class="scroll-link btn btn-white">Saiba mais</a>
       </div>
-    </section>
-    <!-- projetos -->
-    <section id="project" class="section">
-      <div class="title">
-        <h2>meus <span>projetos</span></h2>
-        <div class="projects">
-          <div class="project" data-filter="dev">
-            <h4 class="text_title">Portfólio Pessoal</h4>
-            <p class="text-project">Html, Css e Javascript</p>
-            <a class="btn-project" href="https://github.com/fabiula-alves/project-site-portfolio">Código GitHub</a>
-            <a class="btn-project" href="https://fabiulaalvessilva.com/">Ver Projeto</a>
-          </div>
-          <div class="project" data-filter="design">
-            <h4 class="text_title">Wireframe/Mockup</h4>
-            <p class="text-project">Figma</p>
-            <a class="btn-project" href="https://www.figma.com/file/AZdc21tyaBEeWOlpIIegJa/Teste-Centro-Comercial-das-Figueiras">Ver Projeto</a>
-          </div>
-          <div class="project hide" data-filter="dev">
-            <h4 class="text_title">Grid</h4>
-            <p class="text-project">Css</p>
-            <a class="btn-project" href="https://github.com/fabiula-alves/Grid-Css">Código GitHub</a>
-            <a class="btn-project" href="fabiula-alves.github.io/grid-css/">Ver Projeto</a>
-          </div>
-          </div>
-          <div class="projects">
-          <div class="project" data-filter="design">
-            <h4 class="text_title">Logo</h4>
-            <p class="text-project">Figma</p>
-            <a class="btn-project" href="https://www.figma.com/file/x1LrbJrJeN3Z2iKZYEbCR7/Logo?node-id=0%3A1">Ver Projeto</a>
-          </div>
-          <div class="project" data-filter="design">
-            <h4 class="text_title">Email Marketing</h4>
-            <p class="text-project">Html e Css</p>
-            <a class="btn-project" href="https://github.com/fabiula-alves/email_marketing">Código GitHub</a>
-            <a class="btn-project" href="https://fabiula-alves.github.io/email_marketing/">Ver Projeto</a>
-          </div>
+    </div>
+  </header>
+  <!-- sobre -->
+  <section id="about" class="section">
+    <div class="title">
+      <h2>sobre <span>mim</span></h2>
+      <p class="about-text">
+        Meu nome é Fabiula Alves e Silva, sou web designer, desenvolvedora e criadora de conteúdo para mídias digitais.
+      </p>
+      <p class="about-text">
+        Formada no curso técnico "Informática para Internet" pelo Senai-MT.
+      </p>
+      <p class="about-text">
+        Nos últimos 2 anos, trabalho desenvolvendo conteúdo para mídias digitais para uma rede de farmácias.
+      </p>
+      <p class="about-text">
+        Aqui estão os meu últimos trabalhos como design e criadora de conteúdo para mídias sociais, além de estudo
+        realizados.
+      </p>
+      <section class="questions">
+        <!-- questions -->
+        <div class="section-center">
+          <!-- single question -->
+          <article class="question">
+            <!-- question title -->
+            <div class="question-title">
+              <p>Conhecimento</p>
+              <button type="button" class="question-btn">
+                <span class="plus-icon">
+                  <i class="far fa-plus-square"></i>
+                </span>
+                <span class="minus-icon">
+                  <i class="far fa-minus-square"></i>
+                </span>
+              </button>
+            </div>
+            <!-- question text -->
+            <div class="question-text">
+              <p>
+                HTML, CSS e Javascript
+              </p>
+              <p>
+                Photoshop, Gimp, Figma
+              </p>
+              <p>
+                Bootstrap
+              </p>
+            </div>
+          </article>
+          <!-- end of single question -->
+      </section>
+    </div>
+  </section>
+  <!-- projetos -->
+  <section id="project" class="section">
+    <div class="title">
+      <h2>meus <span>projetos</span></h2>
+      <div class="projects">
+        <div class="project" data-filter="dev">
+          <h4 class="text_title">Portfólio Pessoal</h4>
+          <p class="text-project">Html, Css e Javascript</p>
+          <a class="btn-project" href="https://github.com/fabiula-alves/project-site-portfolio">Código GitHub</a>
+          <a class="btn-project" href="https://fabiulaalvessilva.com/">Ver Projeto</a>
+        </div>
+        <div class="project" data-filter="design">
+          <h4 class="text_title">Wireframe/Mockup</h4>
+          <p class="text-project">Figma</p>
+          <a class="btn-project"
+            href="https://www.figma.com/file/AZdc21tyaBEeWOlpIIegJa/Teste-Centro-Comercial-das-Figueiras">Ver
+            Projeto</a>
+          <a class="btn-project"
+            href="https://www.figma.com/file/8Bj3fUfWkEgBvvTSXyeJKR/Loja-Artesanato?node-id=0%3A1">Ver
+            Projeto</a>
+        </div>
+        <div class="project hide" data-filter="dev">
+          <h4 class="text_title">Grid</h4>
+          <p class="text-project">Css</p>
+          <a class="btn-project" href="https://github.com/fabiula-alves/Grid-Css">Código GitHub</a>
+          <a class="btn-project" href="fabiula-alves.github.io/grid-css/">Ver Projeto</a>
         </div>
       </div>
-    </section>
-    <!-- experience -->
-    <section id="experience" class="section">
-      <div class="title">
-        <h2>Últimos <span>trabalhos</span></h2>
-        <p class="experience-text">Conteúdo para mídias sociais e indoor</p>
-        <div class="experiences">
-          <div class="experience">
-            <img src="img/portfolio-1.jpg" alt="mídias sociais 2020">
-            <figcaption class="legenda">Anúncio - Mídias sociais - 2020</figcaption>
-          </div>
-          <div class="experience">
-            <img src="img/portfolio-2.jpg" alt="mídias sociais 2020">
-            <figcaption class="legenda"> Anúncio - Mídias sociais - 2020</figcaption>
-          </div>
-          <div class="experience">
-            <img src="img/portfolio-3.jpg" alt="mídias sociais 2020">
-            <figcaption class="legenda">Anúncio - Mídias sociais - 2020</figcaption>
-          </div>
-          <div class="experience">
-            <img src="img/portfolio-4.jpg" alt="mídias sociais 2020">
-            <figcaption class="legenda">Anúncio - Mídias sociais - 2020</figcaption>
-          </div>
-          <div class="experience">
-            <img src="img/portfolio-5.jpg" alt="mídias sociais 2020">
-            <figcaption class="legenda">Anúncio - Mídias sociais - 2020</figcaption>
-          </div>
-          <div class="experience">
-            <a href="https://youtu.be/Lf8WHS784Us">
-              <img src="img/portfolio-7.jpg" alt="mídias sociais 2020">
-            </a>
-            <figcaption class="legenda">Vídeo - Mídia Indoor - 2020</figcaption>
-          </div>
-          <div class="experience">
-            <a href="https://youtu.be/jXwz5PgUuIk">
-              <img src="img/portfolio-8.jpg" alt="mídias sociais 2020">
-            </a>
-            <figcaption class="legenda">Vídeo - Mídia Indoor - 2020</figcaption>
-          </div>
+    </div>
+  </section>
+  <!-- experience -->
+  <section id="experience" class="section">
+    <div class="title">
+      <h2>Últimos <span>trabalhos</span></h2>
+      <p class="experience-text">Conteúdo para mídias sociais e indoor</p>
+      <div class="experiences">
+        <div class="experience">
+          <img src="img/portfolio-1.jpg" alt="mídias sociais 2020">
+          <figcaption class="legenda">Anúncio - Mídias sociais - 2020</figcaption>
+        </div>
+        <div class="experience">
+          <img src="img/portfolio-2.jpg" alt="mídias sociais 2020">
+          <figcaption class="legenda"> Anúncio - Mídias sociais - 2020</figcaption>
+        </div>
+        <div class="experience">
+          <img src="img/portfolio-3.jpg" alt="mídias sociais 2020">
+          <figcaption class="legenda">Anúncio - Mídias sociais - 2020</figcaption>
+        </div>
+        <div class="experience">
+          <img src="img/portfolio-4.jpg" alt="mídias sociais 2020">
+          <figcaption class="legenda">Anúncio - Mídias sociais - 2020</figcaption>
+        </div>
+        <div class="experience">
+          <img src="img/portfolio-5.jpg" alt="mídias sociais 2020">
+          <figcaption class="legenda">Anúncio - Mídias sociais - 2020</figcaption>
+        </div>
+        <div class="experience">
+          <a href="https://youtu.be/Lf8WHS784Us">
+            <img src="img/portfolio-7.jpg" alt="mídias sociais 2020">
+          </a>
+          <figcaption class="legenda">Vídeo - Mídia Indoor - 2020</figcaption>
+        </div>
+        <div class="experience">
+          <a href="https://youtu.be/jXwz5PgUuIk">
+            <img src="img/portfolio-8.jpg" alt="mídias sociais 2020">
+          </a>
+          <figcaption class="legenda">Vídeo - Mídia Indoor - 2020</figcaption>
         </div>
       </div>
-    </section>
-    <!-- footer -->
-    <footer class="section">
-      <p id="contact">Contato</p>
-        <ul class="social-icons">
-          <li>
-            <a class="social" href="https://www.linkedin.com/in/fabiulaalvesesilva">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </li>
-          <li>
-            <a class="social" href="https://github.com/fabiula-alves">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
-        </ul>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer class="section">
+    <p id="contact">Contato</p>
+    <ul class="social-icons">
+      <li>
+        <a class="social" href="https://www.linkedin.com/in/fabiulaalvesesilva">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="social" href="https://github.com/fabiula-alves">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+    </ul>
     <p>
       copyright &copy; Fabiula Alves - design
       <span id="date"></span>. all rights reserved
     </p>
-    </footer>
-    <a class="scroll-link top-link" href="#home">
-      <i class="fas fa-arrow-up"></i>
-    </a>
-    <!-- javascript -->
-    <script src="app.js"></script>
-  </body>
+  </footer>
+  <a class="scroll-link top-link" href="#home">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+  <!-- javascript -->
+  <script src="app.js"></script>
+</body>
+
 </html>
